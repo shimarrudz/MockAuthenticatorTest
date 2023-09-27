@@ -71,7 +71,7 @@ Caso o github esteja indisponível, você deverá pegar o projeto no diretório 
 
    Lembre-se que:
 
-   1. Deverá adicionar duas **constraint** para que não seja possível ter mais de uma Role com o mesmo **nome** na tabela do banco de dados;
+   1. Deverá adicionar uma **constraint** envolvendo dois atributos para que não seja possível ter mais de uma Role com o mesmo **nome**  para o mesmo **sistema** na tabela do banco de dados;
    2. Existe relacionamento **Muitos para Um** entre **Role** e **Sistema** a no atributo sistema.
 
 1. **(2 Pontos)** adicionar corretamente as anotações JPA na classe **User**.
